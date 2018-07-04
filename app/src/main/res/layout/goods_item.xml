@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <View style="@style/verLine_item"/>
+    <TextView
+            android:id="@+id/goods_id"
+            style="@style/listItemStyle"
+            android:layout_weight="0.8"/>
+    <View style="@style/verLine_item"/>
+    <TextView
+            android:id="@+id/goods_tm"
+           style="@style/listItemStyle"
+            android:layout_weight="0.8"/>
+    <View style="@style/verLine_item"/>
+    <TextView
+            android:id="@+id/goods_sl"
+            style="@style/listItemStyle"
+            android:layout_weight="0.8"/>
+    <View style="@style/verLine_item"/>
+    <TextView
+            android:id="@+id/goods_je"
+            style="@style/listItemStyle"
+            android:layout_weight="1"/>
+    <View style="@style/verLine_item"/>
+    <TextView
+            android:id="@+id/goods_shop"
+            style="@style/listItemStyle"
+            android:layout_weight="1.6"/>
+    <View style="@style/verLine_item"/>
+</LinearLayout>
